@@ -1,0 +1,263 @@
+.main-home,
+.main-home * {
+  box-sizing: border-box;
+}
+.main-home {
+  background: #ffffff;
+  height: 1020px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* 헤더 부분 색깔 */
+.bannerbackcloor {
+  background: linear-gradient(
+    90.11deg,
+    rgba(255, 157, 11, 1) 0%,
+    rgba(255, 129, 24, 1) 54%,
+    rgba(255, 71, 51, 1) 100%
+  );
+  width: 1980px;
+  height: 115px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+
+/* 배너 부분 부모요소 배경색*/
+.backcolor3 {
+  background: #ff9d0b;
+  width: 404px;
+  height: 74px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+/* 배너 부분의 자식요소 글자*/
+.best-price {
+  color: #ffffff;
+  background-color: #ff9d0b;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  margin: 0;
+  font-size: 70px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 185px);
+  top: calc(50% - 45px);
+}
+
+/* 검색 부모 요소 */
+.serchcss {
+  background: #ffffff;
+  width: 960px;
+  height: 49px;
+  position: absolute;
+  left: calc(50% - 502px);
+  top: calc(50% - 479px);
+  overflow: hidden;
+}
+/* 돋보기 아이콘 자식요소 */
+.rectangle-2 {
+  background: #ffcb77;
+  width: 59px;
+  height: 54px;
+  position: absolute;
+  left: calc(50% - -421px);
+  top: calc(50% - 29.5px);
+}
+.ellipse-1 {
+  background: #111211;
+  border-radius: 50%;
+  width: 29px;
+  height: 30px;
+  position: absolute;
+  left: 909px;
+  top: 2px;
+}
+.ellipse-2 {
+  background: #ffc861;
+  border-radius: 50%;
+  width: 23px;
+  height: 24px;
+  position: absolute;
+  left: 912px;
+  top: 5px;
+}
+.rectangle-1 {
+  background: #000000;
+  width: 27px;
+  height: 4px;
+  position: absolute;
+  left: 934.76px;
+  top: 25px;
+  transform-origin: 0 0;
+  transform: rotate(43.606deg) scale(1, 1);
+}
+
+/* 마이페이지 부모요소*/
+.myiconback {
+  background: #ffffff;
+  width: 89px;
+  height: 73px;
+  position: absolute;
+  left: calc(50% - -658px);
+  top: calc(50% - 493px);
+  overflow: hidden;
+}
+/* 자식요소 */
+.myicon {
+  width: 89px;
+  height: 73px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+  font-size: 20px;
+}
+.nosun {
+  width: 30px;
+  height: 40px;
+  top: 302px;
+  left: 200px;
+
+}
+
+
+
+
+
+
+/* 회원가입 부분 부모요소*/
+.butonback {
+  width: 85px;
+  height: 76px;
+  position: absolute;
+  left: calc(50% - -543px);
+  top: calc(50% - 492px);
+  overflow: visible;
+}
+/* 회원가입 부분 자식 요소*/
+.buton {
+  width: 85px;
+  height: 76px;
+  font-size: 20px;
+  left:calc(50% - 700px);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+
+/*---------------------------- 위쪽은 헤더 부분-------------------------------*/
+
+/* 레시피 부모 요소*/
+.rel {
+  background: #979797;
+  width: 215px;
+  height: 100px;
+  position: absolute;
+  left: calc(50% - 355px);
+  top: calc(50% - 398px);
+  overflow: hidden;
+}
+/* 레시피  자식 요소 */
+.rell {  
+  color: #0c0a0a;
+  text-align: left;
+  font-size: 50px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 75px);
+  top: calc(50% - 10px);
+}
+
+/*자취팁 배경 css*/
+.ja {
+  background: #979797;
+  width: 215px;
+  height: 100px;
+  position: absolute;
+  left: calc(50% - 140px);
+  top: calc(50% - 398px);
+  overflow: hidden;
+}
+/*자취팁 글자 css*/
+.jaa {
+  color: #000000;
+  text-align: left;
+  font-size: 50px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 75px);
+  top: calc(50% - 30px);
+}
+
+/*평점 배경 css*/
+.pa {
+  background: #e1bafa;
+  width: 215px;
+  height: 100px;
+  position: absolute;
+  left: calc(50% - -75px);
+  top: calc(50% - 398px);
+  overflow: hidden;
+}
+/*평점 글자 css*/
+.paa {
+  color: #000000;
+  text-align: left;
+  font-size: 50px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 30px);
+  top: calc(50% - 30px);
+}
+
+/*나만의 냉장고 배경 css*/
+.su {
+  background: #94ca7f;
+  width: 345px;
+  height: 100px;
+  position: absolute;
+  left: calc(50% - -290px);
+  top: calc(50% - 398px);
+  overflow: hidden;
+}
+/*나만의 냉장고 글자 css*/
+.suu {
+  color: #000000;
+  text-align: left;
+  font-size: 50px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 160px);
+  top: calc(50% - 15px);
+}
+
+.sang {
+  width: 215px;
+  height: 100px;
+  position: absolute;
+  left: calc(50% - 570px);
+  top: calc(50% - 398px);
+
+}
+.sangg {
+  background-color: #e1bafa;
+  color: #000000;
+  text-align: center;
+  width: 200px;
+  height: 105px;
+  font-size: 45px;
+  line-height: 28px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - 100px);
+  top: calc(50% - 47px);
+}
+
+
+

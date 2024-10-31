@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import "./App.css"
+import { BrowserRouter, Routes, Route, Router } from 'react-router-dom';
+import Create_user from './componenet/UserAccount/Create_uesr'
+import Main_home from './componenet/UserAccount/Main_home';
+import Loing_user from './componenet/UserAccount/Login_user';
+import User_EmailCode from './componenet/UserAccount/User_EmailCode';
+import User_INputEmailCode from './componenet/UserAccount/User_INputEmailCode'
+import Findpassword from './componenet/UserAccount/Findpassword';
+import Mypage from './componenet/UserMypage/Mypage';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Main_home />} />
+        <Route path="/create" element={<Create_user />} />
+        <Route path="/Login" element={<Loing_user/>} />
+        <Route path="/emailuser" element={<User_EmailCode/>} />
+        <Route path="/INputEmail" element={<User_INputEmailCode/>} />
+        <Route path="/findpass" element={<Findpassword/>} />
+        <Route path="/Mp" element={<Mypage/>} />
+
+      </Routes>
+    </BrowserRouter>
   );
 }
 
-export default App;

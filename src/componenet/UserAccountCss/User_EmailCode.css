@@ -1,0 +1,131 @@
+
+
+.basic {
+  width: 800px;
+  height: 66px;
+  position: absolute;
+  left: 637px;
+  top: 207px;
+  overflow: hidden;
+}
+.dona {
+  color: #000000;
+  text-align: center;
+  font-family: "PublicSans-SemiBold", sans-serif;
+  font-size: 30px;
+  line-height: 28px;
+  font-weight: 600;
+  position: absolute;
+  left: 314px;
+  top: 19px;
+}
+
+
+
+.framee {
+  background: #febb69;
+  width: 416px;
+  height: 368px;
+  position: absolute;
+  left: 819px;
+  top: 302px;
+  overflow: hidden;
+}
+.rectangleii {
+  width: 120px;
+  height: 43px;
+  position: absolute;
+  left: 30px;
+  top: 296px;
+  overflow: visible;
+}
+.diii{
+  color: #000000;
+  text-align: left;
+  font-family: "PublicSans-Bold", sans-serif;
+  font-size: 17.538890838623047px;
+  line-height: 25.06px;
+  font-weight: 700;
+  position: absolute;
+  left: 30px;
+  top: 290px;
+  height: 50px;
+  width: 120px;
+}
+.input-field {
+  background: var(--gray-00, #ffffff);
+  border-radius: 2px;
+  border-style: solid;
+  border-color: var(--gray-100, #e4e7e9);
+  border-width: 1px;
+  padding: 14px 20px 14px 20px;
+  width: 362px;
+  height: 44px;
+  position: absolute;
+  left: 0px;
+  top: 27px;
+}
+.div4 {
+  color: #000000;
+  text-align: left;
+  font-family: "PublicSans-Regular", sans-serif;
+  font-size: 17.538890838623047px;
+  line-height: 25.06px;
+  font-weight: 400;
+  position: absolute;
+  left: 6px;
+  top: 1px;
+}
+.divo {
+  background: #ffe479;
+  width: 360px;
+  height: 71px;
+  position: absolute;
+  left: 30px;
+  top: 184px;
+  overflow: hidden;
+}
+.divq {
+  color: #000000;
+  text-align: left;
+  font-family: "PublicSans-Regular", sans-serif;
+  font-size: 17.538890838623047px;
+  line-height: 25.06px;
+  font-weight: 400;
+  position: absolute;
+  left: 30px;
+  top: 26px;
+}
+.frameop {
+  width: 800px;
+  height: 66px;
+  position: absolute;
+  left: 637px;
+  top: 207px;
+  overflow: hidden;
+}
+.divop {
+  color: #000000;
+  text-align: center;
+  font-family: "PublicSans-SemiBold", sans-serif;
+  font-size: 30px;
+  line-height: 28px;
+  font-weight: 600;
+  position: absolute;
+  left: 314px;
+  top: 19px;
+}
+.mainframe {
+  background: #ffffff;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #e4e7e9;
+  border-width: 1px;
+  height: 601px;
+  width: 600px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  left: 720px;
+  top: 190px;
+}

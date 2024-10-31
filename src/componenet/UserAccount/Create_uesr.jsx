@@ -1,6 +1,9 @@
 import "../UserAccountCss/Create_user.css";
 import React from "react";
 import { Link } from "react-router-dom";
+import "../UserAccount/Create_user.js";
+import { Create_check } from '../UserAccount/Create_user.js';
+
 
 export default function Create_user() {
     return (
@@ -60,33 +63,33 @@ export default function Create_user() {
   <div class="createframefull">
 
     <div class="nick">
-      <input type="text" class="inputback"></input>
+      <input type="text" id="nick" class="inputback"></input>
       <div class="filename">닉네임</div>
     </div>
 
     <div class="nick3">
-    <input type="text" class="inputback"></input>
+    <input type="text" id="id"  class="inputback"></input>
       <div class="filename">아이디</div>
     </div>
     
     <div class="nick4">
-    <input type="text" class="inputback"></input>
+    <input type="password" id="pw" class="inputback"></input>
       <div class="filename">비밀번호</div>
     </div>
     <div class="nick5">
-    <input type="name" class="inputback"></input>
+    <input type="name" id="name" class="inputback"></input>
       <div class="filename">이름</div>
     </div>
     <div class="nick6">
-    <input type="phonen_umber" class="inputback"></input>
+    <input type="phonen_umber" id="phone" class="inputback"></input>
       <div class="filename">전화번호</div>
     </div>
     <div class="nick7">
-    <input type="email" class="inputback"></input>
+    <input type="email" id="email" class="inputback"></input>
       <div class="filename">이메일</div>
     </div>
     <div class="buttonfull"></div>
-    <button class="buttonfulll"> 회원가입하기 </button>
+    <button type="button" class="buttonfulll" onClick={Create_check} > 회원가입하기 </button>
   </div>
 
   </from>

@@ -8,6 +8,9 @@ import User_EmailCode from './componenet/UserAccount/User_EmailCode';
 import User_INputEmailCode from './componenet/UserAccount/User_INputEmailCode'
 import Findpassword from './componenet/UserAccount/Findpassword';
 import Mypage from './componenet/UserMypage/Mypage';
+import MyQnA from './componenet/UserMypage/MyQnA';
+
+
 
 export default function App() {
   return (
@@ -20,6 +23,7 @@ export default function App() {
         <Route path="/INputEmail" element={<User_INputEmailCode/>} />
         <Route path="/findpass" element={<Findpassword/>} />
         <Route path="/Mp" element={<Mypage/>} />
+        <Route path="/Qa" element={<MyQnA/>} />
 
       </Routes>
     </BrowserRouter>

@@ -34,77 +34,79 @@ export default function Mypage() {
   {/* 위쪽은 헤더부분 */}
   {/* 위쪽은 헤더부분 */}
 
+
+    {/* 마이페이지 틀 */}
   <div class="frame-504">
   <div class="rectangle-3111142"></div>
   <div class="rectangle-3111156"></div>
-  <div class="myvo">
-    <div class="myvo"><button class="div">내 정보</button></div>
+  <div>
+    <div><Link to='/Mp'><button class="fontclass">내 정보</button></Link></div>
   </div>
   <div class="my">
-    <div class="div2">장바구니</div>
+    <div><button class="fontclass">장바구니</button></div>
   </div>
   <div class="buy">
-    <div class="div3">결제</div>
+    <div><button class="fontclass">결제</button></div>
   </div>
   <div class="my-fridge">
-    <div class="div4">나의 냉장고</div>
+    <div><button class="fontclass">나의 냉장고</button></div>
   </div>
   <div class="interest">
-    <div class="div5">관심</div>
+    <div><button class="fontclass">관심</button></div>
   </div>
-  <div class="recipe">
-    <div class="div6">레시피</div>
+  <div class="myrecipecss">
+    <div><button class="fontclass">레시피</button></div>
   </div>
-  <div class="recipe2">
-    <div class="div7">
-      나의 문의
-      <br />
+  <div class="myinquiry">
+    <div><Link to="/Qa"><button class="fontclass">나의 문의</button></Link></div>
     </div>
+
+
+
+{/* 내정보 css */}
+  <div class="macto1">
+    <div class="mactoclor1">내 정보</div>
   </div>
-  <div class="frame-482">
-    <div class="div8">내 정보</div>
+  <div class="macto2">
+    <div><button class="mactoclor2">수정하기</button></div>
   </div>
-  <div class="frame-483">
-    <div class="div9">수정하기</div>
+  <div class="macto3">
+    <div><button class="mactoclor3">회원 탈퇴</button></div>
   </div>
-  <div class="frame-485">
-    <div class="div10">회원 탈퇴</div>
+  <img class="macto4" src="frame-5020.svg" />
+  <div class="macto5">
+    <button class="mactoclor4">알림 설정</button>
   </div>
-  <img class="frame-502" src="frame-5020.svg" />
-  <div class="frame-503">
-    <div class="div11">알림 설정</div>
-  </div>
-  <div class="frame-505">
+  <div class="macto6">
     <img class="image" src="image0.png" />
     <div class="profiledd"></div>
-    <div class="div12">프로필 사진</div>
-    <div class="frame-484">
-      <div class="div13">변경</div>
-      <div class="frame-507"></div>
+    <div class="mactoclor5">프로필 사진</div>
+    <div class="macto7">
+      <button class="macto8"> 변경 </button>
     </div>
   </div>
-  <div class="frame-506">
-    <div><input class="input-field"></input></div>
-    <div><input class="input-field2"></input></div>
-    <div><input class="input-field3"></input></div>
-    <div><input class="input-field4"></input></div>
-    <div><input class="input-field5"></input></div>
-    <div><input class="input-field6"></input></div>
+  <div class="macto9">
+    <div><input class="inputilebox1"></input></div>
+    <div><input class="inputilebox2"></input></div>
+    <div><input class="inputilebox3"></input></div>
+    <div><input class="inputilebox4"></input></div>
+    <div><input class="inputilebox5"></input></div>
+    <div><input class="inputilebox6"></input></div>
   </div>
 
-  <div class="frame-509">
+  <div class="macto12">
     <div class="namedd"></div>
     <div class="namedd2"></div>
     <div class="namedd3"></div>
     <div class="namedd4"></div>
     <div class="namedd5"></div>
     <div class="namedd6"></div>
-    <div class="div14">비밀번호</div>
-    <div class="div15">이메일</div>
-    <div class="div16">전화번호</div>
-    <div class="div17">이름</div>
-    <div class="div18">아이디</div>
-    <div class="div19">닉네임</div>
+    <div class="mactoclor6">비밀번호</div>
+    <div class="mactoclor7">이메일</div>
+    <div class="mactoclor8">전화번호</div>
+    <div class="mactoclor9">이름</div>
+    <div class="mactoclor10">아이디</div>
+    <div class="mactoclor11">닉네임</div>
   </div>
 </div>
 

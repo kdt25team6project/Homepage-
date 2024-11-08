@@ -39,7 +39,7 @@ export default function Mypage() {
   <div class="frame-504">
   <div class="rectangle-3111142"></div>
   <div class="rectangle-3111156"></div>
-  <div>
+  <div class="myacount">
     <div><Link to='/Mp'><button class="fontclass">내 정보</button></Link></div>
   </div>
   <div class="my">
@@ -71,7 +71,7 @@ export default function Mypage() {
     <div><button class="mactoclor2">수정하기</button></div>
   </div>
   <div class="macto3">
-    <div><button class="mactoclor3">회원 탈퇴</button></div>
+    <div><button class="mactoclor3">회원탈퇴</button></div>
   </div>
   <img class="macto4" src="frame-5020.svg" />
   <div class="macto5">

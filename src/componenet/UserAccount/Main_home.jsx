@@ -36,6 +36,9 @@ export default function Main_home () {
   </div>
 
 
+  <div>
+  <Link to='/managerpage'><button class="dPtltest"> 관리자로 접속 </button></Link>
+</div>
 
 
 
@@ -66,6 +69,8 @@ export default function Main_home () {
   <div class="su">
     <div class="suu">나만의 냉장고</div>
   </div>
+
+
 
 </div>
 

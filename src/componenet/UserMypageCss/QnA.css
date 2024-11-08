@@ -2,26 +2,26 @@
 .frame-524 * {
   box-sizing: border-box;
 }
-.frame-524 {
-  height: 609px;
+.backlo1 {
+  width: 1141px;
+  height: 617px;
   left: 245px;
   position: relative;
   overflow: hidden;
 }
-.back1 {
+.fr1 {
   background: linear-gradient(
-    180deg,
-    rgba(255, 218, 218, 1) 0%,
-    rgba(241, 190, 103, 1) 63.67523670196533%,
-    rgba(240, 133, 67, 1) 100%
-  );
-  width: 1141px;
-  height: 610px;
-  position: absolute;
-  left: -8px;
-  top: -1px;
+    179.91deg,
+    rgb(216, 216, 216) 0%,
+    rgb(138, 138, 138) 100%
+    );
+    width: 1141px;
+    height: 617px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
-.frame-501 {
+.fr2 {
   background: #794040;
   width: 1019px;
   height: 462px;
@@ -30,7 +30,7 @@
   top: 68px;
   overflow: hidden;
 }
-.div {
+.fovr {
   color: #ffffff;
   text-align: center;
   font-family: "PublicSans-SemiBold", sans-serif;
@@ -41,7 +41,7 @@
   left: 12px;
   top: 11px;
 }
-.frame-510 {
+.fr3 {
   background: #ffffff;
   width: 396px;
   height: 181px;
@@ -50,7 +50,7 @@
   top: 61px;
   overflow: hidden;
 }
-.frame-511 {
+.fr4 {
   background: #c9c9c9;
   width: 58px;
   height: 27px;
@@ -59,7 +59,7 @@
   top: 0px;
   overflow: hidden;
 }
-.frame-512 {
+.fr5 {
   width: 58px;
   height: 27px;
   position: absolute;
@@ -67,7 +67,7 @@
   top: 0px;
   overflow: hidden;
 }
-.div2 {
+.qa1 {
   color: #000000;
   text-align: center;
   font-family: "PublicSans-SemiBold", sans-serif;
@@ -78,7 +78,7 @@
   left: 11px;
   top: 0px;
 }
-.frame-515 {
+.qa2 {
   width: 266px;
   height: 27px;
   position: absolute;
@@ -86,7 +86,7 @@
   top: 0px;
   overflow: hidden;
 }
-.rectangle-3111225 {
+.ra1 {
   background: #d9d9d9;
   width: 266px;
   height: 27px;
@@ -94,7 +94,7 @@
   left: 0px;
   top: 0px;
 }
-.div3 {
+.qa3 {
   color: #000000;
   text-align: center;
   font-family: "PublicSans-SemiBold", sans-serif;
@@ -105,7 +105,7 @@
   left: 2px;
   top: -1px;
 }
-.frame-521 {
+.ra2 {
   width: 72px;
   height: 27px;
   position: absolute;
@@ -113,7 +113,7 @@
   top: 0px;
   overflow: hidden;
 }
-.rectangle-3111227 {
+.ra3 {
   width: 72px;
   height: 27px;
   position: absolute;
@@ -121,7 +121,7 @@
   top: 0px;
   overflow: visible;
 }
-.div4 {
+.ra4 {
   color: #000000;
   text-align: center;
   font-family: "PublicSans-SemiBold", sans-serif;
@@ -132,7 +132,7 @@
   left: 18px;
   top: 0px;
 }
-.frame-516 {
+.yq1 {
   width: 451px;
   height: 421px;
   position: absolute;
@@ -140,14 +140,14 @@
   top: 16px;
   overflow: hidden;
 }
-.rectangle-3111228 {
+.yq2 {
   width: 457px;
   height: 421px;
   position: absolute;
   left: 0px;
   top: 0px;
 }
-.rectangle-3111229 {
+.yq3 {
   width: 451px;
   height: 35px;
   position: absolute;
@@ -155,7 +155,7 @@
   top: 0px;
   overflow: visible;
 }
-.frame-517 {
+.yq4 {
   background: #ffffff;
   width: 451px;
   height: 381px;
@@ -164,20 +164,20 @@
   top: 35px;
   overflow: hidden;
 }
-.div5 {
+.yq5 {
   color: #000000;
   text-align: center;
   font-family: "PublicSans-SemiBold", sans-serif;
   font-size: 20px;
   position: absolute;
   left: 0px;
-  top: 35px;
-  height: 300px;
+  top: 0px;
+  height: 380px;
   width: 452px;
   text-align: left;
 
 }
-.frame-518 {
+.yu6 {
   width: 451px;
   height: 35px;
   position: absolute;
@@ -185,7 +185,7 @@
   top: 0px;
   overflow: hidden;
 }
-.div6 {
+.yu1 {
   color: #000000;
   text-align: center;
   font-family: "PublicSans-SemiBold", sans-serif;
@@ -198,7 +198,7 @@
   left: 0px;
   top: 0px;
 }
-.frame-519 {
+.yu2 {
   width: 49px;
   height: 169px;
   position: absolute;
@@ -206,7 +206,7 @@
   top: 0px;
   overflow: hidden;
 }
-.rectangle-3111230 {
+.yu3 {
   background: #d9d9d9;
   width: 62px;
   height: 35px;
@@ -214,7 +214,7 @@
   left: 907px;
   top: 51px;
 }
-.div7 {
+.yu4 {
   color: #000000;
   text-align: center;
   font-family: "PublicSans-SemiBold", sans-serif;
@@ -225,7 +225,7 @@
   left: 910px;
   top: 54px;
 }
-.frame-520 {
+.ta1 {
   background: #a09898;
   width: 82px;
   height: 35px;
@@ -234,7 +234,7 @@
   top: 86px;
   overflow: hidden;
 }
-.div8 {
+.ta2 {
   color: #ffffff;
   text-align: center;
   font-family: "PublicSans-SemiBold", sans-serif;
@@ -245,7 +245,7 @@
   left: 4px;
   top: 3px;
 }
-.frame-522 {
+.ta3 {
   width: 82px;
   height: 28px;
   position: absolute;
@@ -253,7 +253,7 @@
   top: 121px;
   overflow: hidden;
 }
-.rectangle-3111231 {
+.ta4 {
   background: #d9d9d9;
   width: 82px;
   height: 28px;
@@ -261,7 +261,7 @@
   left: 0px;
   top: 0px;
 }
-.div9 {
+.ta5 {
   color: #000000;
   text-align: center;
   font-family: "PublicSans-SemiBold", sans-serif;

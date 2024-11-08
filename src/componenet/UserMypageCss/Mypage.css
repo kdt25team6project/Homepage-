@@ -3,15 +3,18 @@
   box-sizing: border-box;
 }
 .frame-504 {
-  background: #ffffff;
   height: 617px;
-  top: 300px;
+  top: 200px;
   left: 300px;
   position: relative;
   overflow: hidden;
 }
 .rectangle-3111142 {
-  background: #d9d9d9;
+  background: linear-gradient(
+    179.91deg,
+    rgb(216, 216, 216) 0%,
+    rgb(138, 138, 138) 100%
+    );
   width: 243px;
   height: 617px;
   position: absolute;
@@ -21,14 +24,24 @@
 .rectangle-3111156 {
   background: linear-gradient(
     179.91deg,
-    rgba(217, 168, 115, 1) 0%,
-    rgba(235, 142, 142, 1) 100%
+    rgb(216, 216, 216) 0%,
+    rgb(138, 138, 138) 100%
   );
   width: 1141px;
   height: 617px;
   position: absolute;
   left: 243px;
   top: 0px;
+}
+.myacount {
+  background: #000000;
+  width: 242px;
+  height: 78px;
+  position: absolute;
+  left: 1px;
+  top: 0px;
+  overflow: hidden;
+  border-radius: 25px;
 }
 .fontclass {
   background-color: #000000;
@@ -44,6 +57,18 @@
   left: 1px;
   top: 0px;
 }
+.fontclass:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: wave 1s infinite;
+}
+
+@keyframes wave {
+  0% { transform: scale(1) rotate(0deg); }
+  50% { transform: scale(1.1) rotate(5deg); }
+  100% { transform: scale(1) rotate(0deg); }
+}
 .my {
   background: #000000;
   width: 242px;
@@ -52,6 +77,7 @@
   left: 1px;
   top: 88px;
   overflow: hidden;
+  border-radius: 25px;
 }
 .div2 {
   color: #ffffff;
@@ -72,6 +98,7 @@
   left: 1px;
   top: 175px;
   overflow: hidden;
+  border-radius: 25px;
 }
 .div3 {
   color: #ffffff;
@@ -92,6 +119,7 @@
   left: 1px;
   top: 267px;
   overflow: hidden;
+  border-radius: 25px;
 }
 .div4 {
   color: #ffffff;
@@ -112,6 +140,7 @@
   left: 1px;
   top: 354px;
   overflow: hidden;
+  border-radius: 25px;
 }
 .div5 {
   color: #ffffff;
@@ -132,6 +161,7 @@
   left: 0px;
   top: 445px;
   overflow: hidden;
+  border-radius: 25px;
 }
 .div6 {
   color: #ffffff;
@@ -152,6 +182,7 @@
   left: 1px;
   top: 539px;
   overflow: hidden;
+  border-radius: 25px;
 }
 .div7 {
   color: #ffffff;
@@ -165,7 +196,7 @@
   top: 25px;
 }
 .macto1 {
-  background: #756464;
+  background: #cccccc;
   width: 172px;
   height: 73px;
   position: absolute;
@@ -174,7 +205,7 @@
   overflow: hidden;
 }
 .mactoclor1 {
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   font-family: "PublicSans-SemiBold", sans-serif;
   font-size: 50px;
@@ -186,25 +217,32 @@
   width: 243px;
 }
 .macto2 {
-  background: #d9a873;
-  width: 99px;
-  height: 31px;
+  background: #9d9d9d;
+  width: 80px;
+  height: 25px;
   position: absolute;
   left: 522px;
-  top: 47px;
+  top: 50px;
   overflow: hidden;
 }
+.macto2:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
 .mactoclor2 {
-  color: #0e6bff;
-  text-align: center;
-  font-family: "PublicSans-SemiBold", sans-serif;
-  font-size: 18px;
-  line-height: 28px;
-  font-weight: 600;
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
   position: absolute;
-  height: 30px;
-  left: 6px;
-  top: 1px;
+  left: 0px;
+  top: 0px;
+  width: 80px;
+  height: 25px;
+}
+.mactoclor2:hover {
+  color: #0700d0;
 }
 .macto3 {
   background: #ffffff;
@@ -215,17 +253,24 @@
   top: 50px;
   overflow: hidden;
 }
+.macto3:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
 .mactoclor3 {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: px;
+  font-size: 15px;
   font-weight: 400;
   position: absolute;
   left: 0px;
   top: 0px;
   width: 80px;
   height: 25px;
+}
+.mactoclor3:hover {
+  color: red;
 }
 .macto4 {
   width: 77px;
@@ -243,6 +288,10 @@
   left: 1223px;
   top: 34px;
   overflow: hidden;
+}
+.macto5:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
 }
 .mactoclor4 {
   color: #000000;
@@ -309,6 +358,9 @@
   font-size: 12px;
   font-weight: 10px;
   color: #0700d0;
+}
+.macto8:hover {
+  color: #0ed3ff;
 }
 .macto9 {
   width: 470px;

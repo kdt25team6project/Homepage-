@@ -64,45 +64,45 @@ export default function MyQnA() {
 
 
 
-    <div class="frame-524">
-  <div class="back1"></div>
-  <div class="frame-501">
-    <div class="div">나의 문의</div>
-    <div class="frame-510">
-      <div class="frame-511">
-        <div class="frame-512">
-          <div class="div2">날짜</div>
+    <div class="backlo1">
+  <div class="fr1"></div>
+  <div class="fr2">
+    <div class="fovr">나의 문의</div>
+    <div class="fr3">
+      <div class="fr4">
+        <div class="fr5">
+          <div class="qa1">날짜</div>
         </div>
       </div>
-      <div class="frame-515">
-        <div class="rectangle-3111225"></div>
-        <div class="div3">제목</div>
+      <div class="qa2">
+        <div class="ra1"></div>
+        <div class="qa3">제목</div>
       </div>
-      <div class="frame-521">
-        <img class="rectangle-3111227" src="rectangle-31112270.svg" />
-        <div class="div4">답변</div>
+      <div class="ra2">
+        <img class="ra3" src="rectangle-31112270.svg" />
+        <div class="ra4">답변</div>
       </div>
     </div>
-    <div class="frame-516">
-      <div class="rectangle-3111228"></div>
-      <img class="rectangle-3111229" src="rectangle-31112290.svg" />
+    <div class="yq1">
+      <div class="yq2"></div>
+      <img class="yq3" src="rectangle-31112290.svg" />
 
-      <div class="div517">
-        <textarea type="text" class="div5" rows="6" cols="22" placeholder="간단한 의견을 입력하세요..."></textarea>
+      <div class="yq4">
+        <textarea type="text" class="yq5" rows="6" cols="22" placeholder="간단한 의견을 입력하세요..."></textarea>
       </div>
-      <div class="frame-518">
-        <input class="div6"  placeholder="제목" ></input>
-        <div class="frame-519"></div>
+      <div class="yu6">
+        <input class="yu1"  placeholder="제목" ></input>
+        <div class="yu2"></div>
       </div>
     </div>
-    <div class="rectangle-3111230"></div>
-    <div class=""><button class="div7">보내기</button></div>
-    <div class="frame-520">
-      <div class=""><button class="div8">보내기</button></div>
+    <div class="yu3"></div>
+    <div class=""><button class="yu4">보내기</button></div>
+    <div class="ta1">
+      <div class=""><button class="ta2">보내기</button></div>
     </div>
-    <div class="frame-522">
-      <div class="rectangle-3111231"></div>
-      <div class=""><button class="div9">삭제하기</button></div>
+    <div class="ta3">
+      <div class="ta4"></div>
+      <div class=""><button class="ta5">삭제하기</button></div>
     </div>
   </div>
 </div>

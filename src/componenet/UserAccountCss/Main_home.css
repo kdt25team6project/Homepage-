@@ -9,6 +9,13 @@
   overflow: hidden;
 }
 
+.dPtltest {
+  position: relative;
+  left: 10px;
+  top: 200px;
+  width: 15%;
+  height: 200px;
+}
 /* 헤더 부분 색깔 */
 .bannerbackcloor {
   background: linear-gradient(

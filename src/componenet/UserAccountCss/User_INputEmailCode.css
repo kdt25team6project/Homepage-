@@ -18,7 +18,7 @@
     top: 19px;
   }
   .frame-baa {
-    background: #febb69;
+    background: #a0a0a0;
     width: 416px;
     height: 368px;
     position: absolute;
@@ -46,7 +46,7 @@
     top: 304px;
   }
   .dodopp {
-    background: #ffe479;
+    background: #b3b3b3;
     width: 360px;
     height: 72px;
     position: absolute;
@@ -54,6 +54,9 @@
     top: 125px;
     overflow: hidden;
   }
+.dodopp:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
   .inputcode {
     background: var(--gray-00, #ffffff);
     border-radius: 2px;

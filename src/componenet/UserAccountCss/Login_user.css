@@ -1,135 +1,3 @@
-
-
-/* 헤더 부분 색깔 */
-.bannerbackcloor {
-  background: linear-gradient(
-    90.11deg,
-    rgba(255, 157, 11, 1) 0%,
-    rgba(255, 129, 24, 1) 54%,
-    rgba(255, 71, 51, 1) 100%
-  );
-  width: 1980px;
-  height: 115px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-
-
-/* 배너 부분 부모요소 배경색*/
-.backcolor3 {
-  background: #ff9d0b;
-  width: 404px;
-  height: 74px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-
-/* 배너 부분의 자식요소 글자*/
-.best-price {
-  color: #ffffff;
-  background-color: #ff9d0b;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  margin: 0;
-  font-size: 70px;
-  font-weight: 400;
-  position: absolute;
-  left: calc(50% - 185px);
-  top: calc(50% - 45px);
-}
-
-/* 검색 부모 요소 */
-.serchcss {
-  background: #ffffff;
-  width: 960px;
-  height: 49px;
-  position: absolute;
-  left: calc(50% - 502px);
-  top: calc(50% - 479px);
-  overflow: hidden;
-}
-/* 돋보기 아이콘 자식요소 */
-.rectangle-2 {
-  background: #ffcb77;
-  width: 59px;
-  height: 54px;
-  position: absolute;
-  left: calc(50% - -421px);
-  top: calc(50% - 29.5px);
-}
-.ellipse-1 {
-  background: #111211;
-  border-radius: 50%;
-  width: 29px;
-  height: 30px;
-  position: absolute;
-  left: 909px;
-  top: 2px;
-}
-.ellipse-2 {
-  background: #ffc861;
-  border-radius: 50%;
-  width: 23px;
-  height: 24px;
-  position: absolute;
-  left: 912px;
-  top: 5px;
-}
-.rectangle-1 {
-  background: #000000;
-  width: 27px;
-  height: 4px;
-  position: absolute;
-  left: 934.76px;
-  top: 25px;
-  transform-origin: 0 0;
-  transform: rotate(43.606deg) scale(1, 1);
-}
-
-/* 마이페이지 부모요소*/
-.myiconback {
-  background: #ffffff;
-  width: 89px;
-  height: 73px;
-  position: absolute;
-  left: calc(50% - -658px);
-  top: calc(50% - 493px);
-  overflow: hidden;
-}
-/* 자식요소 */
-.myicon {
-  width: 89px;
-  height: 73px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  overflow: visible;
-  font-size: 20px;
-}
-
-/* 회원가입 아이콘 부분 부모요소*/
-.butonback {
-  width: 85px;
-  height: 76px;
-  position: absolute;
-  left: calc(50% - -543px);
-  top: calc(50% - 492px);
-  overflow: visible;
-}
-/* 회원가입 아이콘 부분 자식 요소*/
-.buton {
-  width: 85px;
-  height: 76px;
-  font-size: 20px;
-  left:calc(50% - 700px);
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  overflow: visible;
-}
-
 /* 로그인 회원가입 css창 버튼 */
 /* 로그인 회원가입 css창 버튼 */
 .tal {
@@ -145,7 +13,7 @@
   position: absolute;
   left: calc(50% - 2px);
   top: calc(50% - 375px);
-  box-shadow: inset 0px -3px 0px 0px rgba(250, 130, 50, 1),
+  box-shadow: inset 0px -3px 0px 0px rgb(213, 213, 213),
     inset 0px 1px 0px 0px rgba(228, 231, 233, 1),
     inset 1px 0px 0px 0px rgba(228, 231, 233, 1);
 }
@@ -229,7 +97,7 @@
     top: 60px;
   }
   .tabtop {
-    background: #ffdfba;
+    background: #a0a0a0;
     display: flex;
     gap: 0px;
     width: 100%;
@@ -326,6 +194,11 @@
     font-weight: var(--body-small-500-font-weight, 500);
     position: relative;
   }
+.forget-password:hover {
+  transform: scale(1.1);     
+  transition: transform 0.3s ease;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
   .regular-eye {
     width: 20px;
     height: 20px;
@@ -335,7 +208,7 @@
     overflow: visible;
   }
   .button1 {
-    background: var(--primary-500, #fa8232);
+    background: var(--primary-500, #e0e0e0);
     border-radius: 2px;
     padding: 0px 24px 0px 24px;
     display: flex;
@@ -355,6 +228,39 @@
     font-weight: var(--heading-07-font-weight, 700);
     text-align: left;
   }
+  .button1:hover::before {
+
+    content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.818), rgba(255, 255, 255, 0));
+  animation: shine 1s infinite; /* 애니메이션 적용 */
+  transform: skewX(-25deg);
+  -webkit-transform: skewX(-25deg);
+  }
+@keyframes shine {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%; /* 빛이 요소를 지나가며 오른쪽 끝까지 이동 */
+  }  
+}
+@-webkit-keyframes shine {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		left: 125%;
+		opacity: 0;
+	}
+}
   .regular-arrow-right {
     flex-shrink: 0;
     width: 20px;

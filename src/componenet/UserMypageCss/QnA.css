@@ -22,7 +22,12 @@
     top: 0px;
 }
 .fr2 {
-  background: #794040;
+  background: linear-gradient(
+    179.91deg,
+    rgb(214, 214, 214) 20%,
+    rgb(129, 129, 129) 60%,
+    rgb(62, 62, 62) 100%
+    );
   width: 1019px;
   height: 462px;
   position: absolute;
@@ -31,7 +36,7 @@
   overflow: hidden;
 }
 .fovr {
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   font-family: "PublicSans-SemiBold", sans-serif;
   font-size: 40px;
@@ -106,20 +111,13 @@
   top: -1px;
 }
 .ra2 {
+  background-color: #d6d6d6;
   width: 72px;
   height: 27px;
   position: absolute;
   left: 324px;
   top: 0px;
   overflow: hidden;
-}
-.ra3 {
-  width: 72px;
-  height: 27px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  overflow: visible;
 }
 .ra4 {
   color: #000000;
@@ -218,15 +216,18 @@
   color: #000000;
   text-align: center;
   font-family: "PublicSans-SemiBold", sans-serif;
-  font-size: 20px;
+  font-size: 17px;
   line-height: 28px;
   font-weight: 600;
   position: absolute;
   left: 910px;
   top: 54px;
 }
+.yu4:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
 .ta1 {
-  background: #a09898;
   width: 82px;
   height: 35px;
   position: absolute;
@@ -235,15 +236,21 @@
   overflow: hidden;
 }
 .ta2 {
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   font-family: "PublicSans-SemiBold", sans-serif;
-  font-size: 20px;
+  font-size: 17px;
   line-height: 28px;
   font-weight: 600;
   position: absolute;
-  left: 4px;
+  left: 1px;
+  text-align: left;
   top: 3px;
+  width: 200px;
+}
+.ta2:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 .ta3 {
   width: 82px;
@@ -265,10 +272,16 @@
   color: #000000;
   text-align: center;
   font-family: "PublicSans-SemiBold", sans-serif;
-  font-size: 20px;
+  font-size: 17px;
   line-height: 28px;
   font-weight: 600;
   position: absolute;
-  left: 4px;
+  text-align: left;
+  left: 1px;
   top: 0px;
+  width: 200px;
+}
+.ta5:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }

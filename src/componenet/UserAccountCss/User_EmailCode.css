@@ -23,7 +23,7 @@
 
 
 .framee {
-  background: #febb69;
+  background: #8b8b8b;
   width: 416px;
   height: 368px;
   position: absolute;
@@ -52,6 +52,10 @@
   height: 50px;
   width: 120px;
 }
+.diii:hover {
+  transform: scale(1.1);     
+  transition: transform 0.3s ease;
+}
 .input-field {
   background: var(--gray-00, #ffffff);
   border-radius: 2px;
@@ -77,13 +81,16 @@
   top: 1px;
 }
 .divo {
-  background: #ffe479;
+  background: #e3e3e3;
   width: 360px;
   height: 71px;
   position: absolute;
   left: 30px;
   top: 184px;
   overflow: hidden;
+}
+.divo:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
 }
 .divq {
   color: #000000;

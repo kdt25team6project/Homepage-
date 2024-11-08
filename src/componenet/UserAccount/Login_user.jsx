@@ -56,6 +56,9 @@ export default function Login_user() {
     <div class="line-29"></div>
     <div class="tabtop"></div>
   </div>
+
+
+  <from></from>
   <div class="from">
     <div class="orderid1">
       <div class="email-address">아이디</div>

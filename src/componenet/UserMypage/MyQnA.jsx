@@ -3,7 +3,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export default function MyQnA() {
-    return(            
+  {/* 문의 답변진행사항 더미데이터 */}
+  const data = [
+    { title: 'React 학습', date: '2024-11-01', response: '진행 중' },
+    { title: '리액트 Hooks 사용법', date: '2024-11-05', response: '완료' },
+    { title: '리덕스 상태 관리', date: '2024-11-07', response: '진행 중' },
+  ]; 
+  
+  
+  
+  return(            
     <div class="MyQnApage">
      
 <div class="bannerbackcloor"></div>
@@ -38,7 +47,7 @@ export default function MyQnA() {
 
 <div class="frame-504">
   <div class="rectangle-3111142"></div>
-  <div>
+  <div class="myacount">
     <div><Link to='/Mp'><button class="fontclass">내 정보</button></Link></div>
   </div>
   <div class="my">
@@ -68,7 +77,21 @@ export default function MyQnA() {
   <div class="fr1"></div>
   <div class="fr2">
     <div class="fovr">나의 문의</div>
+
+
+{/* 문의 답변 진행사항 */}
     <div class="fr3">
+    <table className="task-table">
+        <tbody>
+          {data.map((item, index) => (
+            <tr key={index}>
+              <td>{item.title}</td>
+              <td>{item.date}</td>
+              <td>{item.response}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
       <div class="fr4">
         <div class="fr5">
           <div class="qa1">날짜</div>
@@ -79,13 +102,16 @@ export default function MyQnA() {
         <div class="qa3">제목</div>
       </div>
       <div class="ra2">
-        <img class="ra3" src="rectangle-31112270.svg" />
+        <img class="ra3"  />
         <div class="ra4">답변</div>
       </div>
     </div>
+
+
+
     <div class="yq1">
       <div class="yq2"></div>
-      <img class="yq3" src="rectangle-31112290.svg" />
+      <img class="yq3"  />
 
       <div class="yq4">
         <textarea type="text" class="yq5" rows="6" cols="22" placeholder="간단한 의견을 입력하세요..."></textarea>
@@ -98,7 +124,7 @@ export default function MyQnA() {
     <div class="yu3"></div>
     <div class=""><button class="yu4">보내기</button></div>
     <div class="ta1">
-      <div class=""><button class="ta2">보내기</button></div>
+      <div class=""><button class="ta2">수정하기</button></div>
     </div>
     <div class="ta3">
       <div class="ta4"></div>

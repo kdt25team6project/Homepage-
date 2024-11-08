@@ -18,12 +18,7 @@
 }
 /* 헤더 부분 색깔 */
 .bannerbackcloor {
-  background: linear-gradient(
-    90.11deg,
-    rgba(255, 157, 11, 1) 0%,
-    rgba(255, 129, 24, 1) 54%,
-    rgba(255, 71, 51, 1) 100%
-  );
+  background-color: #e9e9e9;
   width: 1980px;
   height: 115px;
   position: absolute;
@@ -34,7 +29,6 @@
 
 /* 배너 부분 부모요소 배경색*/
 .backcolor3 {
-  background: #ff9d0b;
   width: 404px;
   height: 74px;
   position: absolute;
@@ -45,7 +39,7 @@
 /* 배너 부분의 자식요소 글자*/
 .best-price {
   color: #ffffff;
-  background-color: #ff9d0b;
+  background-color: #858585;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
   margin: 0;
@@ -68,7 +62,7 @@
 }
 /* 돋보기 아이콘 자식요소 */
 .rectangle-2 {
-  background: #ffcb77;
+  background: #ffffff;
   width: 59px;
   height: 54px;
   position: absolute;
@@ -85,7 +79,7 @@
   top: 2px;
 }
 .ellipse-2 {
-  background: #ffc861;
+  background: #ffffff;
   border-radius: 50%;
   width: 23px;
   height: 24px;
@@ -124,6 +118,12 @@
   overflow: visible;
   font-size: 20px;
 }
+.myicon:hover {
+  transform: scale(1.1);     
+  transition: transform 0.3s ease;
+  
+
+}
 .nosun {
   width: 30px;
   height: 40px;
@@ -156,6 +156,11 @@
   left: 0px;
   top: 0px;
   overflow: visible;
+}
+.buton:hover {
+  transform: scale(1.05);     
+  transition: transform 0.3s ease;
+
 }
 
 /*---------------------------- 위쪽은 헤더 부분-------------------------------*/
@@ -204,7 +209,7 @@
 
 /*평점 배경 css*/
 .pa {
-  background: #e1bafa;
+  background: #e9e9e9;
   width: 215px;
   height: 100px;
   position: absolute;
@@ -225,7 +230,7 @@
 
 /*나만의 냉장고 배경 css*/
 .su {
-  background: #94ca7f;
+  background: #cfcfcf;
   width: 345px;
   height: 100px;
   position: absolute;

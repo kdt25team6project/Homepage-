@@ -45,8 +45,10 @@ export default function MyQnA() {
 
 {/* 왼쪽 탭 */}
 
-<div class="frame-504">
-  <div class="rectangle-3111142"></div>
+<div class="frame-504">  <div class="fr2">
+    <div class="fovr">나의 문의</div>
+    </div>
+  <div class="rectangle-3111142">
   <div class="myacount">
     <div><Link to='/Mp'><button class="fontclass">내 정보</button></Link></div>
   </div>
@@ -68,16 +70,8 @@ export default function MyQnA() {
   <div class="myinquiry">
     <div><Link to="/Qa"><button class="fontclass">나의 문의</button></Link></div>
     </div>
-
-
-
-
-
     <div class="backlo1">
   <div class="fr1"></div>
-  <div class="fr2">
-    <div class="fovr">나의 문의</div>
-
 
 {/* 문의 답변 진행사항 */}
     <div class="fr3">

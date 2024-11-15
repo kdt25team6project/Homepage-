@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Login_user() {
     return (
       <div class="Login">
-
+<div class="backfontmove"></div> {/* 움직이는 배경 */}
   {/* 헤더 부분 색깔 여기에 배너,검색,로그인,회원가입,알림,나만의 냉장고 아이콘 넣어야됨 */}
   <div class="bannerbackcloor"></div>
 
@@ -43,7 +43,7 @@ export default function Login_user() {
       <div class="tabbb2">
         <Link to="/Login"><button class="signin"> 로그인</button></Link>
       </div>
-        
+
 
 
 
@@ -52,13 +52,12 @@ export default function Login_user() {
 {/* 회원가입 로그인  부분  */}
       <div class="framefull1">
   <div class="loginfull1">
-    <div class="bgg"></div>
-    <div class="line-29"></div>
-    <div class="tabtop"></div>
+    <div class="tabtop">
+    </div>
   </div>
 
 
-  <from></from>
+
   <div class="from">
     <div class="orderid1">
       <div class="email-address">아이디</div>

@@ -1,8 +1,14 @@
 import "../UserMypageCss/Mypage.css";
-import React from "react";
 import { Link } from "react-router-dom";
+import React, { useState } from "react";
 
 export default function Mypage() {
+   const [text, setText] = useState(""); // 회원정보 저장 
+   const [edit, setEdit] = useState(false); // 회원 수정 부분 if 동작문 
+   
+   let content = <div>
+    
+   </div>
     return(
         <div>
             <div class="bannerbackcloor"></div>
@@ -37,9 +43,9 @@ export default function Mypage() {
 
     {/* 마이페이지 틀 */}
   <div class="frame-504">
-  <div class="rectangle-3111142"></div>
-  <div class="rectangle-3111156"></div>
-  <div class="myacount">
+  <div class="rectangle-3111142"> 
+    
+     <div class="myacount">
     <div><Link to='/Mp'><button class="fontclass">내 정보</button></Link></div>
   </div>
   <div class="my">
@@ -59,7 +65,11 @@ export default function Mypage() {
   </div>
   <div class="myinquiry">
     <div><Link to="/Qa"><button class="fontclass">나의 문의</button></Link></div>
-    </div>
+    </div></div>
+
+    
+  <div class="rectangle-3111156"></div>
+
 
 
 
@@ -86,7 +96,10 @@ export default function Mypage() {
     </div>
   </div>
   <div class="macto9">
-    <div><input class="inputilebox1"></input></div>
+    <div>
+      <input class="inputilebox1" type="text" value={text} onChange={(e) => {
+      setText.log(e.target.value);}}></input>
+    </div>
     <div><input class="inputilebox2"></input></div>
     <div><input class="inputilebox3"></input></div>
     <div><input class="inputilebox4"></input></div>

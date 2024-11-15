@@ -1,8 +1,12 @@
 import Create_user from "./Create_uesr";
+import { useNavigate } from 'react-router-dom';
 
 
 // 회원가입 알림 및 조건 
 export function Create_check() {
+
+    const navigate = useNavigate(); 
+
     var id = document.getElementById("id");
     var pw = document.getElementById("pw");
     var nick = document.getElementById("nick");
@@ -52,9 +56,7 @@ export function Create_check() {
     }
 
     alert("회원가입이 완료되었습니다.");  // 여기서 alert 추가
-    navigator('/Main_home');
-
-    console.log("회원가입이 완료");
+    navigate('/Main_home');
 
 }
 

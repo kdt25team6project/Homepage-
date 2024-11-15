@@ -3,53 +3,47 @@
 
 /* 로그인 회원가입 css창 버튼 */
 .tabbb {
-  background: var(--gray-00, #ffffff);
   padding: 16px 0px 16px 0px;
-  display: flex;
   flex-direction: row;
   gap: 10px;
   align-items: center;
   justify-content: center;
-  width: 400px;
+  width: 300px;
   height: 10px;
-  position: absolute;
-  left: calc(50% - 2px);
-  top: calc(50% - 375px);
-  box-shadow: inset 0px -3px 0px 0px rgb(195, 195, 195),
-    inset 0px 1px 0px 0px rgba(228, 231, 233, 1),
-    inset 1px 0px 0px 0px rgba(228, 231, 233, 1);
+  position: fixed;
+  left: 1090px;
+  top: 75px;
 }
-tabbb:hover {
-  background-color: white;
+@media screen and (max-width: 768px) {
+  tabbb{
+    display: block;
+    margin-right: 0;
+  }
 }
 .signin {
   position: relative;
   width: 400px;
   height: 100px;
-  background-color: white;
-  border-color: #b8b8b8;
-  top: 20px;
+  background-color: rgb(177, 236, 76);
+  border-color: #acff5a;
+  top: 30px;
   font-size: 30px;
 }
 signin:focus{
   background-color: #858585;
 }
 .tabbb2 {
-  background: var(--gray-00, #ffffff);
   padding: 16px 0px 16px 0px;
-  display: flex;
   flex-direction: row;
   gap: 10px;
   align-items: center;
   justify-content: center;
-  width: 400px;
+  width: 300px;
   height: 10px;
   position: absolute;
-  left: calc(50% - 400px);
-  top: calc(50% - 375px);
-  box-shadow: inset 0px -1px 0px 0px rgba(218, 218, 218, 1),
-    inset 0px 1px 0px 0px rgba(228, 231, 233, 1),
-    inset 1px 0px 0px 0px rgba(228, 231, 233, 1);
+  left: 690px;
+  top: 75px;
+  position: fixed;
 }
 
 /*-------------- 로그인 / 회원가입 부분 --------------------- */
@@ -65,14 +59,18 @@ signin:focus{
 
 /*회원가입 폼 부모 요소 */
 .createframefull {
-  background: #6e6e6e;
-  width: 420px;
-  height: 600px;
-  position: absolute;
-  left: 790px;
-  top: 250px;
+  background: #64fe92;
   overflow: hidden;
+  border-radius: 4%;
+  border: 3px solid rgb(107, 251, 208);
+  box-shadow: 10px 10px 10px rgba(150, 255, 201, 0.3);
+  position: fixed;
+  width: 22vw;
+  height: 50vh;
+  left: 45vw;
+  top: 25vh;
 }
+
 /* 사용자 입력 배경 css*/
 .inputback {
   background: var(--gray-00, #ffffff);
@@ -81,15 +79,13 @@ signin:focus{
   border-color: var(--gray-100, #e4e7e9);
   border-width: 1px;
   padding: 14px 20px 14px 20px;
-  width: 320px;
-  height: 15px;
+  width: 320vw;
+  height: 1.3vh;
   position: absolute;
-  left: 0px;
-  top: 27px;
+  top: 2.3vh;
   font-size: 30px;
-}
-.inputback:hover {
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  border: none;
+  outline: none;
 }
 /* 사용자 입력 값  글씨 css*/
 .filename {
@@ -100,77 +96,76 @@ signin:focus{
   line-height: 25.06px;
   font-weight: 400;
   position: absolute;
-  left: calc(50% - 170px);
-    top: 0px;
+  left: 1vw;
 }
 /* 구조 틀 배경들  css*/
 .nick {
-  background: #cccccc;
-  width: 360px;
-  height: 71px;
+  background: #c6f8a5;
+  width: 18.5vw;
+  height: 6.2vh;
   position: absolute;
   left: 27px;
-  top: 9px;
+  top: 1vh;
   overflow: hidden;
 }
 .nick:hover{
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
 }
 .nick3 {
-  background: #cccccc;
-  width: 360px;
-  height: 71px;
+  background: #b5fa8a;
+  width: 18.5vw;
+  height: 6.2vh;
   position: absolute;
   left: 27px;
-  top: 97px;
+  top: 8vh;
   overflow: hidden;
 }
 .nick3:hover{
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
 }
 .nick4 {
-  background: #cccccc;
-  width: 360px;
-  height: 71px;
+  background: #b5fa8a;
+  width: 18.5vw;
+  height: 6.2vh;
   position: absolute;
   left: 27px;
-  top: 179px;
+  top: 15vh;
   overflow: hidden;
 }
 .nick4:hover{
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
 }
 .nick5 {
-  background: #cccccc;
-  width: 360px;
-  height: 71px;
+  background: #b5fa8a;
+  width: 18.5vw;
+  height: 6.2vh;
   position: absolute;
   left: 27px;
-  top: 261px;
+  top: 22vh;
   overflow: hidden;
 }
 .nick5:hover{
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
 }
 .nick6 {
-  background: #cccccc;
-  width: 360px;
-  height: 71px;
+  background: #b5fa8a;
+  width: 18.5vw;
+  height: 6.2vh;
   position: absolute;
   left: 27px;
-  top: 343px;
+  top: 29vh;
   overflow: hidden;
 }
 .nick6:hover{
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
 }
 .nick7 {
-  background: #cccccc;
-  width: 360px;
-  height: 71px;
+  background: #b5fa8a;
+  width: 18.5vw;
+  height: 6.2vh;
   position: absolute;
   left: 29px;
-  top: 425px;
+  top: 36vh;
   overflow: hidden;
 }
 .nick7:hover{
@@ -178,7 +173,6 @@ signin:focus{
 }
 /* 회원가입 버튼 배경 css*/
 .buttonfull {
-  background: #929292;
   width: 120px;
   height: 43px;
   position: absolute;
@@ -187,18 +181,24 @@ signin:focus{
 }
 /* 회원가입 버튼 글씨 css*/
 .buttonfulll {
-  color: #000000;
+  background-color: #146300;
+  border: #acff5a;
+  color: #ffffff;
   text-align: left;
   font-family: "PublicSans-Regular", sans-serif;
-  font-size: 17.538890838623047px;
+  font-size: 17px;
   line-height: 25.06px;
   font-weight: 400;
   position: absolute;
+  border: #d5ff3f;
   left: 32px;
-  top: 510px;
-  width: 125px;
+  top: 44vh;
+  width: 7vw;
   height: 50px;
-
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;     
 }
 .buttonfulll:hover {
   transform: scale(1.1);     

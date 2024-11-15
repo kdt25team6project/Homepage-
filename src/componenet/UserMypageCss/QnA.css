@@ -2,285 +2,250 @@
 .frame-524 * {
   box-sizing: border-box;
 }
+
 .backlo1 {
-  width: 1141px;
-  height: 617px;
-  left: 245px;
+  width: 80vw;
+  height: 70vh;
+  left: 14vw;
   position: relative;
   overflow: hidden;
 }
-.fr1 {
-  background: linear-gradient(
-    179.91deg,
-    rgb(216, 216, 216) 0%,
-    rgb(138, 138, 138) 100%
-    );
-    width: 1141px;
-    height: 617px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-}
+
 .fr2 {
   background: linear-gradient(
     179.91deg,
-    rgb(214, 214, 214) 20%,
-    rgb(129, 129, 129) 60%,
-    rgb(62, 62, 62) 100%
-    );
-  width: 1019px;
-  height: 462px;
-  position: absolute;
-  left: 74px;
-  top: 68px;
+    rgb(218, 252, 192) 0%,
+    rgb(105, 219, 83) 100%
+  );
+  position: fixed;
   overflow: hidden;
+  height: 58.2vh;
+  top: 20vh;
+  width: 78vw;
+  left: 14vw;
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+  border: #d9d9d9;
 }
+
 .fovr {
   color: #000000;
   text-align: center;
   font-family: "PublicSans-SemiBold", sans-serif;
-  font-size: 40px;
-  line-height: 28px;
+  font-size: 4vh;
+  line-height: 2vh;
   font-weight: 600;
   position: absolute;
-  left: 12px;
-  top: 11px;
+  left: 20vw;
+  top: 2vh;
 }
+
 .fr3 {
   background: #ffffff;
-  width: 396px;
-  height: 181px;
+  width: 28vw;
+  height: 30vh;
   position: absolute;
-  left: 12px;
-  top: 61px;
+  left: 0vw;
+  top: 10vh;
   overflow: hidden;
 }
+
 .fr4 {
   background: #c9c9c9;
-  width: 58px;
-  height: 27px;
+  width: 4vw;
+  height: 4vh;
   position: absolute;
-  left: 266px;
-  top: 0px;
+  left: 18vw;
+  top: 0;
   overflow: hidden;
 }
+
 .fr5 {
-  width: 58px;
-  height: 27px;
+  width: 4vw;
+  height: 4vh;
   position: absolute;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   overflow: hidden;
 }
+
 .qa1 {
   color: #000000;
   text-align: center;
   font-family: "PublicSans-SemiBold", sans-serif;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 2vh;
+  line-height: 2.8vh;
   font-weight: 600;
   position: absolute;
-  left: 11px;
-  top: 0px;
+  left: 1vw;
+  top: 0;
 }
+
 .qa2 {
-  width: 266px;
-  height: 27px;
+  width: 18vw;
+  height: 4vh;
   position: absolute;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   overflow: hidden;
 }
+
 .ra1 {
   background: #d9d9d9;
-  width: 266px;
-  height: 27px;
+  width: 18vw;
+  height: 4vh;
   position: absolute;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
 }
+
 .qa3 {
   color: #000000;
   text-align: center;
   font-family: "PublicSans-SemiBold", sans-serif;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 2vh;
+  line-height: 2.8vh;
   font-weight: 600;
   position: absolute;
-  left: 2px;
-  top: -1px;
+  left: 0.2vw;
+  top: -0.2vh;
 }
+
 .ra2 {
   background-color: #d6d6d6;
-  width: 72px;
-  height: 27px;
+  width: 5vw;
+  height: 4vh;
   position: absolute;
-  left: 324px;
-  top: 0px;
+  left: 22vw;
+  top: 0;
   overflow: hidden;
 }
+
 .ra4 {
   color: #000000;
   text-align: center;
   font-family: "PublicSans-SemiBold", sans-serif;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 2vh;
+  line-height: 2.8vh;
   font-weight: 600;
   position: absolute;
-  left: 18px;
-  top: 0px;
+  left: 1.5vw;
+  top: 0;
 }
+
 .yq1 {
-  width: 451px;
-  height: 421px;
+  width: 28vw;
+  height: 52vh;
   position: absolute;
-  left: 456px;
-  top: 16px;
+  left: 29vw;
+  top: 2vh;
   overflow: hidden;
 }
-.yq2 {
-  width: 457px;
-  height: 421px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-.yq3 {
-  width: 451px;
-  height: 35px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  overflow: visible;
-}
+
 .yq4 {
-  background: #ffffff;
-  width: 451px;
-  height: 381px;
+  width: 28vw;
+  height: 45vh;
   position: absolute;
-  left: 0px;
-  top: 35px;
+  left: 0vw;
+  top: 5vh;
   overflow: hidden;
 }
+
 .yq5 {
   color: #000000;
   text-align: center;
   font-family: "PublicSans-SemiBold", sans-serif;
-  font-size: 20px;
+  font-size: 2vh;
   position: absolute;
-  left: 0px;
-  top: 0px;
-  height: 380px;
-  width: 452px;
+  left: 0vw;
+  top: 0;
+  height: 45vh;
+  width: 28vw;
   text-align: left;
+}
 
-}
-.yu6 {
-  width: 451px;
-  height: 35px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  overflow: hidden;
-}
 .yu1 {
   color: #000000;
   text-align: center;
   font-family: "PublicSans-SemiBold", sans-serif;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 2vh;
+  line-height: 2.8vh;
   font-weight: 600;
-  width: 500px;
+  width: 28vw;
   text-align: left;
   position: absolute;
-  left: 0px;
-  top: 0px;
+  left: 0vw;
+  top: 0;
 }
+
 .yu2 {
-  width: 49px;
-  height: 169px;
+  width: 3vw;
+  height: 25vh;
   position: absolute;
-  left: 451px;
-  top: 0px;
+  left: 32vw;
+  top: 0;
   overflow: hidden;
 }
-.yu3 {
-  background: #d9d9d9;
-  width: 62px;
-  height: 35px;
-  position: absolute;
-  left: 907px;
-  top: 51px;
-}
+
 .yu4 {
   color: #000000;
   text-align: center;
   font-family: "PublicSans-SemiBold", sans-serif;
-  font-size: 17px;
-  line-height: 28px;
+  font-size: 1.5vh;
+  line-height: 2.8vh;
   font-weight: 600;
   position: absolute;
-  left: 910px;
-  top: 54px;
+  left: 57.5vw;
+  top: 5vh;
 }
+
 .yu4:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease;
 }
+
 .ta1 {
-  width: 82px;
-  height: 35px;
+  width: 6vw;
+  height: 5vh;
   position: absolute;
-  left: 907px;
-  top: 86px;
+  left: 57vw;
+  top: 8vh;
   overflow: hidden;
 }
+
 .ta2 {
   color: #000000;
   text-align: center;
   font-family: "PublicSans-SemiBold", sans-serif;
-  font-size: 17px;
-  line-height: 28px;
+  font-size: 1.5vh;
+  line-height: 2.8vh;
   font-weight: 600;
   position: absolute;
-  left: 1px;
+  left: 0.5vw;
   text-align: left;
-  top: 3px;
-  width: 200px;
+  top: 0.5vh;
+  width: 5vw;
 }
+
 .ta2:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease;
 }
-.ta3 {
-  width: 82px;
-  height: 28px;
-  position: absolute;
-  left: 907px;
-  top: 121px;
-  overflow: hidden;
-}
-.ta4 {
-  background: #d9d9d9;
-  width: 82px;
-  height: 28px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
+
 .ta5 {
   color: #000000;
   text-align: center;
   font-family: "PublicSans-SemiBold", sans-serif;
-  font-size: 17px;
-  line-height: 28px;
+  font-size: 1.5vh;
+  line-height: 2.8vh;
   font-weight: 600;
-  position: absolute;
+  position: fixed;
   text-align: left;
-  left: 1px;
-  top: 0px;
-  width: 200px;
+  left: 85.5vw;
+  top: 32vh;
+  width: 5vw;
 }
+
 .ta5:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease;

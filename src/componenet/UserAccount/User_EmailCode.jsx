@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function User_EmailCode () {
     return(
         <div className="User_Email">
-            
+<div class="backfontmove"></div> {/* 움직이는 배경 */}
             {/* 헤더 부분 색깔 여기에 배너,검색,로그인,회원가입,알림,나만의 냉장고 아이콘 넣어야됨 */}
   <div class="bannerbackcloor"></div>
 
@@ -35,9 +35,6 @@ export default function User_EmailCode () {
 
 {/*아래 부분 */}
 {/* 이메일 입력 탭창 */}
-<div class="basic">
-  <div class="dona">비밀번호 찾기</div>
-</div>
 
 <div class="mainframe">
   </div>
@@ -48,7 +45,7 @@ export default function User_EmailCode () {
       <alert ></alert>
       <Link to="/INputEmail" > <button class="diii"> 코드 전송 </button> </Link> 
     </div>
-    <div class="nick3">
+    <div class="divoopr">
     <input type="text" class="inputback"></input>
       <div class="filename">아이디</div>
     </div>
@@ -56,7 +53,7 @@ export default function User_EmailCode () {
     <input type="email" class="inputback"></input>
       <div class="filename">이메일</div>
     </div>
-    <div class="divq">해당 이메일로 코드가 보내집니다.
+    <div class="divq">해당 이메일로 코드가 보내집니다.<br></br>
       코드를 확인 하세요</div>
   </div>
   <div class="frameop">

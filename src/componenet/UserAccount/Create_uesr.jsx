@@ -8,11 +8,10 @@ import { Create_check } from '../UserAccount/Create_user.js';
 export default function Create_user() {
     return (
       <div class="create-user">
-
+<div class="backfontmove"></div> {/* 움직이는 배경 */}
 
 
   {/* 헤더 부분 색깔 여기에 배너,검색,로그인,회원가입,알림,나만의 냉장고 아이콘 넣어야됨 */}
-  <div class="bannerbackcloor"></div>
 
 {/* 배너쪽 부분*/}
 <div class="backcolor3">
@@ -56,43 +55,45 @@ export default function Create_user() {
   
 {/*-----------------로그인/ 회원가입 부분 ---------------------*/}
 {/*-----------------로그인/ 회원가입 부분 ---------------------*/}
-{/*-----------------로그인/ 회원가입 부분 ---------------------*/}
 
-
-<from name="createuser"action="/action_page.php" method="get" autocomplete="on">
+{/*-----------------회원가입 정보 백엔드쪽 연결---------------------*/}
+<form name="createuser" action="/createUser" method="POST" autocomplete="on">
   <div class="createframefull">
 
     <div class="nick">
-      <input type="text" id="nick" class="inputback"></input>
+      <input type="text" id="nick" name="nickname" class="inputback" required />
       <div class="filename">닉네임</div>
     </div>
 
     <div class="nick3">
-    <input type="text" id="id"  class="inputback"></input>
+      <input type="text" id="id" name="username" class="inputback" required />
       <div class="filename">아이디</div>
     </div>
     
     <div class="nick4">
-    <input type="password" id="pw" class="inputback"></input>
+      <input type="password" id="pw" name="password" class="inputback" required />
       <div class="filename">비밀번호</div>
     </div>
+
     <div class="nick5">
-    <input type="name" id="name" class="inputback"></input>
+      <input type="text" id="name" name="name" class="inputback" required />
       <div class="filename">이름</div>
     </div>
+
     <div class="nick6">
-    <input type="phonen_umber" id="phone" class="inputback"></input>
+      <input type="tel" id="phone" name="phone" class="inputback" required />
       <div class="filename">전화번호</div>
     </div>
+
     <div class="nick7">
-    <input type="email" id="email" class="inputback"></input>
+      <input type="email" id="email" name="email" class="inputback" required />
       <div class="filename">이메일</div>
     </div>
-    <div class="buttonfull"></div>
-    <button type="button" class="buttonfulll" onClick={Create_check} > 회원가입하기 </button>
-  </div>
 
-  </from>
+    <div class="buttonfull"></div>
+    <button type="submit" class="buttonfulll">회원가입하기</button>
+  </div>
+</form>
 
 
   

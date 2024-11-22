@@ -9,7 +9,6 @@ import User_INputEmailCode from './componenet/UserAccount/User_INputEmailCode'
 import Findpassword from './componenet/UserAccount/Findpassword';
 import Mypage from './componenet/UserMypage/Mypage';
 import MyQnA from './componenet/UserMypage/MyQnA';
-import ManagerpageQna from './componenet/ManagerPAGE/ManagerpageQna';
 import Managerpage from './componenet/ManagerPAGE/Managerpage';
 import Review from './componenet/ManagerPAGE/Review';
 
@@ -26,7 +25,6 @@ export default function App() {
         <Route path="/Mp" element={<Mypage/>} />
         <Route path="/Qa" element={<MyQnA/>} />
         <Route path="/managerpage" element={<Managerpage/>} />
-        <Route path="/managerpageQna" element={<ManagerpageQna/>} />
         <Route path="/review" element={<Review/>} />
       </Routes>
     </BrowserRouter>

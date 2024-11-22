@@ -45,7 +45,8 @@ export default function MyQnA() {
 
 {/* 왼쪽 탭 */}
 
-<div class="frame-504">  <div class="fr2">
+<div class="frame-504">  
+  <div class="fr2">
     <div class="fovr">나의 문의</div>
     </div>
   <div class="rectangle-3111142">

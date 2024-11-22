@@ -8,10 +8,10 @@ import { Create_check } from '../UserAccount/Create_user.js';
 export default function Create_user() {
     return (
       <div class="create-user">
-<div class="backfontmove"></div> {/* 움직이는 배경 */}
+<div class="backfontmove"> </div> {/* 움직이는 배경 */}
 
 
-  {/* 헤더 부분 색깔 여기에 배너,검색,로그인,회원가입,알림,나만의 냉장고 아이콘 넣어야됨 */}
+{/* 헤더 부분 색깔 여기에 배너,검색,로그인,회원가입,알림,나만의 냉장고 아이콘 넣어야됨 */}
 
 {/* 배너쪽 부분*/}
 <div class="backcolor3">
